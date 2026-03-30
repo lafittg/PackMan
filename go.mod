@@ -1,6 +1,6 @@
 module github.com/gregoirelafitte/packman
 
-go 1.26.1
+go 1.26
 
 require (
 	github.com/charmbracelet/bubbles v1.0.0
