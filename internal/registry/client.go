@@ -84,7 +84,7 @@ func (c *Client) HeadContentLength(url string) (int64, error) {
 
 func (c *Client) httpGetWithRetry(url string, maxRetries int) (*http.Response, error) {
 	var lastErr error
-	for attempt := range maxRetries {
+	for attempt := 0; attempt < maxRetries; attempt++ {
 		resp, err := c.http.Get(url)
 		if err != nil {
 			lastErr = err
