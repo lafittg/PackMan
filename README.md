@@ -6,19 +6,19 @@
 A CLI tool that analyzes your project's dependencies to surface their **cost** (disk size, transitive deps, install time) and **usage** (unused, underused, heavily used) through an interactive terminal dashboard.
 
 ```
-┌──────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────────┐
 │  PackMan  Node.js Analysis                    47 packages │
-│  Total: 148 MB | Transitive: 234 | Unused: 3             │
-├──────────────────────────────────────────────────────────┤
+│  Total: 148 MB | Transitive: 234 | Unused: 3              │
+├───────────────────────────────────────────────────────────┤
 │  Name           Version  Size     Deps  Usage    Health   │
-│> lodash         4.17.21  1.4 MB   0     Low(2)   ● Warn  │
-│  express        4.18.2   210 KB   30    High(42) ● Good  │
-│  moment         2.29.4   4.2 MB   0     UNUSED   ● Bad   │
-│  typescript     5.3.2    65 MB    0     Tooling  ● Good  │
-│  axios          1.6.2    89 KB    7     Mid(8)   ● Good  │
-├──────────────────────────────────────────────────────────┤
-│  ↑↓ navigate  enter detail  /filter  s sort  ? help  q  │
-└──────────────────────────────────────────────────────────┘
+│> lodash         4.17.21  1.4 MB   0     Low(2)   ● Warn   │
+│  express        4.18.2   210 KB   30    High(42) ● Good   │
+│  moment         2.29.4   4.2 MB   0     UNUSED   ● Bad    │
+│  typescript     5.3.2    65 MB    0     Tooling  ● Good   │
+│  axios          1.6.2    89 KB    7     Mid(8)   ● Good   │
+├───────────────────────────────────────────────────────────┤
+│  ↑↓ navigate  enter detail  /filter  s sort  ? help  q    │
+└───────────────────────────────────────────────────────────┘
 ```
 
 ## Features
